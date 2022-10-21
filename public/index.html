@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>
+       Starter
+    </title>
+</head>
+
+<body>
+    <noscript>
+        <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+                Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+
+    <button class="btn btn-color1">1</button>
+    <button class="btn btn-color2">2</button>
+    <button class="btn btn-color3">3</button>
+    
+    <style scoped lang="stylus">
+        .btn{
+        color: white;
+        background: transparent;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+        border: solid #d689d4;
+        transition: all 0.3s;
+        pointer-events: auto;       
+        }
+        .btn:hover {
+            background: #d689d4;
+        }
+        .btn-color1 {
+            bottom: 100px;
+            right: 450px;
+        }
+        .btn-color2 {
+            bottom: 100px;
+            right: 400px;
+        }
+        .btn-color3 {
+            bottom: 100px;
+            right: 350px;
+        }
+        </style>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>
